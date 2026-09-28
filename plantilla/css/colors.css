@@ -7,11 +7,11 @@
 }
 
 .bg-green {
-    background-color: green;
+    background-color: rgb(22, 194, 22);
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: rgb(138, 138, 248);
 }
 
 .bg-yellow {
@@ -19,7 +19,7 @@
 }
 
 .bg-brown {
-    background-color: brown;
+    background-color: rgb(155, 77, 77);
 }
 
 .bg-orange {
@@ -27,11 +27,11 @@
 }
 
 .bg-purple {
-    background-color: purple;
+    background-color: rgb(145, 54, 145);
 }
 
 .bg-black {
-    background-color: black;
+    background-color: rgb(168, 167, 167);
 }
 
 .bg-cyan {
