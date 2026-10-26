@@ -6,14 +6,10 @@
     list-style: none;
 }
 
-h1 {
-    text-align: center;
-}
-
-.text {
-    color: darkblue;
-}
-
-.text-titol {
+p:hover {
     color: crimson;
+}
+
+p:active {
+    color: blue;
 }
