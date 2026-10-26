@@ -1,0 +1,38 @@
+body {
+    background-color: #bdc3c7;
+}
+
+h1 {
+    color: #9b59b6;
+}
+
+h2 {
+    color: orange;
+}
+
+input {
+    border: 3px;
+    border-color: red;
+}
+
+p {
+    background-color: yellow;
+}
+
+.special {
+    border: 2px;
+    color: blue;
+}
+
+div p {
+    font-size: 25px;
+}
+
+input [type="text"] {
+    background-color: gray;
+}
+
+div :nth-last-of-type p {
+    background-color: pink;
+}
+
