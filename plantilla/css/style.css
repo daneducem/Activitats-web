@@ -1,8 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+
+    text-decoration: none;
+    list-style: none;
 }
 
-td, th {
+h1 {
     text-align: center;
+}
+
+.text {
+    color: darkblue;
+}
+
+.text-titol {
+    color: crimson;
 }
