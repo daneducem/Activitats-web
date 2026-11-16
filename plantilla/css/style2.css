@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #f15a29;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #838994;
+  font-size: 15px;
+}
+
+.nav-links a.active { color: #4c5058; font-weight: 500; }
+.nav-links a:hover { color: #f15a29; }
+
+/* Hero */
+.hero {
+  height: 520px;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+              url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1600&q=80') center/cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero h1 { font-size: 48px; font-weight: 300; margin-bottom: 10px; }
+.hero p { font-size: 22px; font-weight: 300; margin-bottom: 30px; }
+
+.btn {
+  background: #f15a29;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+}
+
+/* Features */
+.features { padding: 80px 20px; }
+.features h2 { font-size: 40px; font-weight: 300; margin-bottom: 60px; }
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.icon {
+  font-size: 56px;
+  color: #f15a29;
+  margin-bottom: 20px;
+}
+
+.features h3 { font-size: 20px; font-weight: 400; }
+
+/* Footer */
+.footer { padding-bottom: 50px; }
+hr { border: none; border-top: 1px solid #eaebec; margin-bottom: 25px; }
+.footer p { font-size: 14px; margin-bottom: 15px; }
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.socials a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #eaebec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #55acee;
+  text-decoration: none;
+}
+
+small { color: #838994; font-weight: 300; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid { flex-direction: column; gap: 40px; }
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: 13px; }
+}
